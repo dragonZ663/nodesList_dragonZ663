@@ -36,7 +36,7 @@ proxies: []
 proxy-providers:
   mySub:
     type: http
-    url: https://proxy.tgbot.co/clash/proxies?c=CN,TW,SG,CH,DE,GB
+    url: https://proxy.tgbot.co/clash/proxies?c=CN,TW,SG,CH,DE,GB;type=ss,ssr,vmess
     path: ./Proxy/mySub.yaml
     health-check:
       enable: true
